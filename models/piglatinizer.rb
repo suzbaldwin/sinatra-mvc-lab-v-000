@@ -22,7 +22,7 @@ class PigLatinizer
 				print "this is trans: #{trans}"
 			end
 		end
-		x.join + trans.join + "ay"
+		x.join + trans.join + "way"
 
 	else
 		word.map do |letter|
