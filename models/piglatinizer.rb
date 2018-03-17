@@ -9,7 +9,7 @@ class PigLatinizer
       three_letter_consonants = ["thr", "sch", "squ"]
 
       # Seperate each word from the phrase given
-      words = str.split(" ")
+      words = word.split(" ")
 
       #Location for processed words
       result = [];
@@ -60,6 +60,6 @@ class PigLatinizer
   end #End of translate function
 
 
-  
+
 
  end
