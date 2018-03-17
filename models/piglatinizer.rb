@@ -3,7 +3,7 @@ class PigLatinizer
 
   def piglatinize(word)
 
-   
+
      if self[0] =~ VOWELS
        self + 'yay'
      else
@@ -13,6 +13,6 @@ class PigLatinizer
      end
    end
 
-  end
+
 
  end
