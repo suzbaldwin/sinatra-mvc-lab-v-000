@@ -33,6 +33,6 @@ class PigLatinizer
 		x.join + trans.join + "ay"
 	end
 
-
+end
 
  end
