@@ -4,7 +4,7 @@ class PigLatinizer
   def piglatinize(word)
 
 
-     if self[0] =~ VOWELS
+     if word =~ VOWELS
        self + 'yay'
      else
        pieces = self.split(VOWELS)
